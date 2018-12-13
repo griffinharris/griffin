@@ -117,6 +117,12 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 3;
   background: transparent;
 }
+.background-gradiant {
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
 #fh5co-header .bio-photo {
   z-index: 20;
   position: absolute;
